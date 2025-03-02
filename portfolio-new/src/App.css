@@ -9,6 +9,7 @@ main {
   /* background-color: red; */
   /* border: 1px solid rebeccapurple; */
   padding-top: 4rem;
+  
 }
 .curiosity {
     font-style: oblique;
@@ -51,6 +52,8 @@ padding: 0;
   border-radius: 20px;
   margin: 2.5%;
   /* margin-bottom: 0; */
+
+  transition: 0.4s ease;
 }
 .latest-work-more-card {
   display: flex;
@@ -64,46 +67,17 @@ padding: 0;
   margin: 2.5%;
 
   height: 190px;
+  color: #646cff;
+
+  transition: 0.4s ease;
 }
 
 .latest-work-cards:hover {
-  scale: 1.5;
+  scale: 1.05;
+}
+.latest-work-more-card:hover{
+  scale: 1.05;
+  color: #535bf2;
+
 }
 
-.uni {
-  width: 100%;
-  /* border: solid; */
-  height: 5rem;
-  display: flex;
-  align-items: center;
-  padding: 0;
-}
-
-.uni-icon {
-  /* border: solid; */
-  width: 4rem;
-  height: 4rem;
-  margin: 0.5rem;
-  border-radius: 50%;
-  background-color: white;
-}
-
-.uni-mid {
-  /* border: solid; */
-  width: 70%;
-  height: 4rem;
-}
-
-.uni-year {
-  /* border: solid; */
-  width: 8rem;
-  margin: 0.5rem;
-  height: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgba(255, 255, 255, 0.628);
-}
-.uni-icon img {
-  max-height:100%; max-width:100%;
-}

@@ -1,0 +1,45 @@
+
+.uni {
+    width: 100%;
+    /* border: solid; */
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .uni-icon {
+    /* border: solid; */
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .uni-mid {
+    /* border: solid; */
+    width: 70%;
+    height: 4rem;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .uni-year {
+    /* border: solid; */
+    width: 8rem;
+    margin: 0.5rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .uni-icon img {
+    max-height:100%; max-width:100%;
+  }
+
+  .uni-major {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
